@@ -1,0 +1,106 @@
+:root {
+    --color-white: #FFF;
+    --color-purple: #590CFF;
+    --color-light-purple: #9381FF;
+    --color-dark: #0F1020;
+    --color-black: #000;
+    --color-green: #28E364;
+    --color-red: #F00;
+    --color-grey: #C5CBD3;
+    --color-light-grey: rgba(197, 203, 211, 0.50);
+    --color-gradient-purple: linear-gradient(267deg, #5100FF 11.84%, #5100FF 58.49%, #A213E5 92.56%);
+    --color-gradient-dark: linear-gradient(94deg, #000 0%, #0F1020 76.25%);
+}
+
+.conteiner {
+    margin: 100px auto auto;
+    max-width: 1218px;
+}
+
+h1 {
+    font-size: 114px;
+    font-weight: 600;
+    line-height: 80.5%;
+}
+
+h2 {
+    color: linear-gradient(267deg, #5100FF 11.84%, #5100FF 58.49%, #A213E5 92.56%);
+
+    font-size: 86px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+
+p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+a {
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+a:hover {
+    color: var(--color-grey);
+}
+
+.btn {
+    display: flex;
+    padding: 15px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: var(--color-purple);
+    width: fit-content;
+}
+
+.btn:hover {
+    background-color: transparent;
+    transition: all .1s ease;
+}
+
+.btn:active {
+    background-color: var(--color-purple);
+}
+
+.stroke-btn {
+    display: flex;
+    padding: 15px 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 1px solid var(--color-white);
+    width: fit-content;
+}
+
+.stroke-btn:hover {
+    border-color: transparent;
+}
+
+.stroke-btn:active {
+    border-color: var(--color-white);
+}
