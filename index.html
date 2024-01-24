@@ -94,11 +94,15 @@
         <section class="section-3 conteiner">
             <h2 class="section-3__title">Top Collections</h2>
             <div class="section-3__btns">
-                <button type="button" class="btn">Art</button>
-                <button type="button" class="stroke-btn">Collectibles</button>
-                <button type="button" class="stroke-btn">Metaverse</button>
-                <button type="button" class="stroke-btn">Virtual Worlds</button>
-                <button type="button" class="stroke-btn">More</button>
+                <button type="button" id="btnArt" class="stroke-btn btns" onclick="toggleClick('btnArt')">Art</button>
+                <button type="button" id="btnCollectibles" class="stroke-btn btns"
+                    onclick="toggleClick('btnCollectibles')">Collectibles</button>
+                <button type="button" id="btnMetaverse" class="stroke-btn btns"
+                    onclick="toggleClick('btnMetaverse')">Metaverse</button>
+                <button type="button" id="btnVirtual" class="stroke-btn btns"
+                    onclick="toggleClick('btnVirtual')">Virtual Worlds</button>
+                <button type="button" id="btnMore" class="stroke-btn btns"
+                    onclick="toggleClick('btnMore')">More</button>
             </div>
 
             <div class="section-3__cards">
@@ -311,5 +315,7 @@
         </div>
     </footer>
 </body>
+
+<script src="script.js"></script>
 
 </html>
